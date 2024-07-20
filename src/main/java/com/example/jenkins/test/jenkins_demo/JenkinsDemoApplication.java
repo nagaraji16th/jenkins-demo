@@ -19,6 +19,7 @@ public void init() {
 	public static void main(String[] args) {
 		logger.info("app executed");
 		SpringApplication.run(JenkinsDemoApplication.class, args);
+		System.out.println("hai");
 	}
 
 }
